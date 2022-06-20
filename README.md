@@ -22,3 +22,5 @@ This Application Is Not Yet Ready For Public Use,
 I Will Be Updating And Working On It Till Its "Completed"
 All Hashes And Offsets Will Be Uploaded To My ![link](https://github.com/dr-NHA/GtaV_2) Repo
 
+
+## I Also Have A Nice C# External GTA Library Base Ill Be Releasing With An Awesome Method I Made To Convert Global/Local Address Strings To Longs/Indexes For You So You Can Parse The String And Arguments (Player Id) And The Method Will Convert It For You :)
