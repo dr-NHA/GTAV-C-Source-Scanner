@@ -2,7 +2,7 @@
 Global/Local Offsets And Hash Scanner Written In C#
 
 # Contains Automatic Script Downloader (Via Sanians Repo)
-![link](https://github.com/Sainan/GTA-V-Decompiled-Scripts)
+[Sainan Decompiled Scripts Repo](https://github.com/Sainan/GTA-V-Decompiled-Scripts)
 
 # Contains An Inbuilt Result Uploader (For Uploading To Github Repo's)
 
@@ -20,7 +20,8 @@ Global/Local Offsets And Hash Scanner Written In C#
 ## INFO:
 This Application Is Not Yet Ready For Public Use,
 I Will Be Updating And Working On It Till Its "Completed"
-All Hashes And Offsets Will Be Uploaded To My ![link](https://github.com/dr-NHA/GtaV_2) Repo
+All Hashes And Offsets Will Be Uploaded To My 
+[NHA's Gta Help](https://github.com/dr-NHA/GtaV_2)
 
 
 ## I Also Have A Nice C# External GTA Library Base Ill Be Releasing With An Awesome Method I Made To Convert Global/Local Address Strings To Longs/Indexes For You So You Can Parse The String And Arguments (Player Id) And The Method Will Convert It For You :)
