@@ -1,6 +1,8 @@
 # GTAV-C-Source-Scanner
 Global/Local Offsets And Hash Scanner Written In C#
 
+## Join The [NHA GTA Discord](https://discord.gg/3EQvmNMr2c)!
+
 # Contains Automatic Script Downloader (Via Sanians Repo)
 [Sainan Decompiled Scripts Repo](https://github.com/Sainan/GTA-V-Decompiled-Scripts)
 
