@@ -3,8 +3,8 @@ Global/Local Offsets And Hash Scanner Written In C#
 
 ## Join The [NHA GTA Discord](https://discord.gg/3EQvmNMr2c)!
 
-# Contains Automatic Script Downloader (Via Sanians Repo)
-[Sainan Decompiled Scripts Repo](https://github.com/Sainan/GTA-V-Decompiled-Scripts)
+# Contains Automatic Script Downloader (Via Ex Sanians Repo)
+[Decompiled Scripts Repo](https://github.com/dr-NHA/GTAV-Decompiled-Scripts)
 
 # Contains An Inbuilt Result Uploader (For Uploading To Github Repo's)
 
