@@ -10,6 +10,8 @@ Global/Local Offsets And Hash Scanner Written In C#
 
 # Fast Scans & File Cleans!
 
+# Added A Option To Fix Any Missing Natives If You Have The Definition For It, Plus Itll Log Any Unknown Natives!
+
 # Automatically Outputs The Offsets & Hashes To Files
 
 ## Preview Images:
