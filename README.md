@@ -6,6 +6,8 @@ Global/Local Offsets And Hash Scanner Written In C#
 # Contains Automatic Script Downloader (Via Ex Sanians Repo)
 [Decompiled Scripts Repo](https://github.com/dr-NHA/GTAV-Decompiled-Scripts)
 
+[PRE Cleaned Decompiled Scripts](https://github.com/dr-NHA/NHA-Cleaned-Decompiled-Scripts)
+
 # Contains An Inbuilt Result Uploader (For Uploading To Github Repo's)
 
 # Fast Scans & File Cleans!
