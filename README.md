@@ -1,3 +1,7 @@
+# NOTE: 
+This Project Is Not Completed Yet!  
+Many Bugs May Exist, But Its Released In A "Working" State!
+
 # GTAV-C-Source-Scanner
 Global/Local Offsets And Hash Scanner Written In C#
 
