@@ -3,12 +3,12 @@ Global/Local Offsets And Hash Scanner Written In C#
 
 ## Join The [NHA GTA Discord](https://discord.gg/3EQvmNMr2c)!
 
-# Contains Automatic Script Downloader [Decompiled Scripts Repo](https://github.com/dr-NHA/GTAV-Decompiled-Scripts)
+## Contains Automatic Script Downloader [Decompiled Scripts Repo](https://github.com/dr-NHA/GTAV-Decompiled-Scripts)
 
-# Contains An Inbuilt Result Uploader (For Uploading To Github Repo's)
-# Fast Scans & File Cleans!
-# Added A Option To Fix Any Missing Natives If You Have The Definition For It, Plus Itll Log Any Unknown Natives! (This Is Slow Btw!)
-# Automatically Outputs The Offsets & Hashes To Files
+## Contains An Inbuilt Result Uploader (For Uploading To Github Repo's)
+## Fast Scans & File Cleans!
+## Added A Option To Fix Any Missing Natives If You Have The Definition For It, Plus Itll Log Any Unknown Natives! (This Is Slow Btw!)
+## Automatically Outputs The Offsets & Hashes To Files
 
 ## Preview Images:
 ![image](https://user-images.githubusercontent.com/56168811/174649477-14e57fe9-04c6-47d9-81f1-c4dd83cc5a35.png)
