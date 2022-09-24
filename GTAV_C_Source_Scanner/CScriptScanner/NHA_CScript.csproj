@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0EF58ADB-6754-46A5-AD59-128ABC11FC05}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NHA_CScript</RootNamespace>
+    <AssemblyName>NHA_CScript</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>NHA_CScript.Program</StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>NHACScriptLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Diagnostics.Contracts" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NHA_CScript\UtilsAndHelpers\ScanPreset.cs" />
+    <Compile Include="NHA_CScript\CScriptCleaner.cs" />
+    <Compile Include="NHA_CScript\CScriptNativeFixer.cs" />
+    <Compile Include="NHA_CScript\CScriptScanner.cs" />
+    <Compile Include="NHA_CScript\Downloader.cs" />
+    <Compile Include="NHA_CScript\UtilsAndHelpers\GTAJoaat.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\fmmc_launcher.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\am_launcher.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\am_pi_menu.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\fm_mission_controller.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\gb_casino_heist_planning.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\heist_island_planning.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\tuneables_processing.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\three_card_poker.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\freemode.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\casino_slots.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\main.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\am_hold_up.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\pausemenu_multiplayer.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\maintransition.cs" />
+    <Compile Include="NHA_CScript\UtilsAndHelpers\StartNew.cs" />
+    <Compile Include="NHA_CScript\UtilsAndHelpers\Utilities.cs" />
+    <Compile Include="NHA_CScript\OffsetDefs\_C_ScriptFile.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <EmbeddedResource Include="Natives_\Natives.dat" />
+    <EmbeddedResource Include="Natives_\NativesUnknown.dat" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="NHACScriptLogo.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\NHA_Github\NHA_Github.csproj">
+      <Project>{6c589642-41d0-48e9-a680-04ae555b75b5}</Project>
+      <Name>NHA_Github</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

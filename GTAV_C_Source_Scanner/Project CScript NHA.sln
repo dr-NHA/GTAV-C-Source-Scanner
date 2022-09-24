@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CScript_Scanner_UI", "CScript_Scanner_UI\CScript_Scanner_UI.csproj", "{CD40C36E-170E-440E-9588-DC7737A6D38F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{2EA6B663-7B8B-4A13-8152-CEA2B1EE4E7E}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHA_CScript", "CScriptScanner\NHA_CScript.csproj", "{0EF58ADB-6754-46A5-AD59-128ABC11FC05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GlobalOffsetTester", "GlobalOffsetTester\GlobalOffsetTester.csproj", "{2745A36D-073A-4498-816D-AF22E7456B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NHA_Github", "NHA_Github\NHA_Github.csproj", "{6C589642-41D0-48E9-A680-04AE555B75B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD40C36E-170E-440E-9588-DC7737A6D38F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD40C36E-170E-440E-9588-DC7737A6D38F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD40C36E-170E-440E-9588-DC7737A6D38F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD40C36E-170E-440E-9588-DC7737A6D38F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0EF58ADB-6754-46A5-AD59-128ABC11FC05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0EF58ADB-6754-46A5-AD59-128ABC11FC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0EF58ADB-6754-46A5-AD59-128ABC11FC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0EF58ADB-6754-46A5-AD59-128ABC11FC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2745A36D-073A-4498-816D-AF22E7456B75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2745A36D-073A-4498-816D-AF22E7456B75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2745A36D-073A-4498-816D-AF22E7456B75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2745A36D-073A-4498-816D-AF22E7456B75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C589642-41D0-48E9-A680-04AE555B75B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C589642-41D0-48E9-A680-04AE555B75B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C589642-41D0-48E9-A680-04AE555B75B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C589642-41D0-48E9-A680-04AE555B75B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FA4B2CF7-B1B5-41E0-AE3C-554507FFB07A}
+	EndGlobalSection
+EndGlobal
